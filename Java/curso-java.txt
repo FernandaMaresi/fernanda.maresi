@@ -1,0 +1,19 @@
+Swing JavaFX
+Java 
+.applet - aplicativos
+.util   - entrada de teclado
+.math   - matematica
+.net    - rede
+
+bicliotecas extendidas
+(antiga Swing Awt)
+Javax
+.soud  - som
+.media - midia
+
+JavaFX 
+(Antiga swing)
+interfaces gráficas para ambiente de janelas.
+
+.fxml - extensão
+

@@ -1,0 +1,106 @@
+
+Diagrama de Classes
+
+REceber os dados de uma tela - Não muda
+
+-TB_Conta.numAgência = TELA.numAgencia
+
+* Um objeto é qualquer coisa existente no mundo real, em formato concreto ou abstrato, que existe fisicamente ou coceitualmente.
+Possui identidade, atributos(caracteristicas, nome, cpf) e comportamentos(acoes- calcular saldo do devedor).
+
+*Qual a diferença entre objeto e classe?
+ Objetos = São clientes fisicos(os bolos)
+- Classe é uma descrição dos conjuntos dos metodos e atributos.(receita).
+- Estrutura = A organição das classes.
+
+ Encapsulamento = Acessa através dos métodos.
+ Mensagem = Solicitação entre os objetos.
+ Herança = Clientes (Pessoa fisica e juridica).
+ 
+ Singular(Cliente)
+ 
+ Classes
+ Cliente
+ ProdutoEstoque
+ 
+ Atributos
+ idade
+ nomeCliente
+ 
+ Métodos
+ calcularSaldoDevedor
+ imprimirBoleto
+ 
+
+ Diagrama de classes
+ 
+ Organização e relacionamentos
+ - 4 formas de ligar as classes
+ 
+ - Associações = Relacionamento de tabelas.(pai e depententes).linha (quant de relacionamentos).
+ - Muitos * (pé-de-galinha) no lado que falou.
+ 
+ - Pacientes 1 paciente tem 1 plano de saúde(nada ou 1)
+ - Diagrama pode ter muitos para muitos(Banco de dados não).
+ 
+ - Agregação = Uma associação (todo e partes). (time- atleta)
+ - Permite indicar o todo e uma parte <>- 1 para muitos.
+ - Informação das partes e não do todo.
+ -
+ 
+ - Composição = Tipo especial de agregação.
+ - Entra como todos os dados (livro - capitulo).
+ - arvore- galho <pintada>-
+ 
+ * Explicar - Composição e agregação.(não colocar no tcc).
+ 
+ Classe de associação
+ Quantidade - Informação das duas classes(Classe de associação)- IngredienteReceita (---)-pontilhada.
+ 
+ Associação - muitos para muitos cria uma nova classe.
+ 
+ Nivel 1 (sem chave estrangeira)
+ Nivel 2 (chave estrangeira)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

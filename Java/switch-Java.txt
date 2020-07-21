@@ -1,0 +1,16 @@
+ //System.out.println("hello world!");
+        int nota = 10;
+        switch(nota){
+            case 10:
+            case 9: 
+                System.out.println("Otimo!");
+                System.out.println("Excelente aluno!");
+                break;
+            case 8:
+                System.out.println("Bom!");
+                break;
+            case 7:
+                System.out.println("Regular!");
+                break;
+            default:
+                System.out.println("Ruim!");

@@ -1,0 +1,27 @@
+ int numero = 1;
+        
+        while( numero <= 5){
+            
+            System.out.println("####### ");
+            System.out.println(" Postagem " + numero);
+            System.out.println(" ######" );
+            
+            numero = numero + 1;
+        }
+		
+		String[] postagens = {"Bom dia amigos", "postagem 2", "postagem 3"};
+        int numero = 0;
+        
+        while( numero < postagens.length){
+            
+            System.out.println( postagens [numero ] );
+            System.out.println(" ######" );
+            
+            numero = numero + 1;
+		
+		//do executa primeiro depois testa a condição.
+		 do{
+            System.out.println( numero );
+             numero = numero + 1;
+             
+        } while( numero <= 5);
